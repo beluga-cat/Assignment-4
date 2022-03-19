@@ -126,10 +126,19 @@ void main(List<String> args) {
   // Question # 9
   // var str = stdin.readLineSync();
   // List<dynamic> vowels = ["a", "e", "i", "o", "u"];
+  // bool flag = false;
   // for (var i = 0; i < vowels.length; i++) {
-  //   if (str == vowels[i]) {
-  //     print("The Entered Character/Alphabet ($str) is a Vowel");
+  //   if (str != vowels[i]) {
+  //     flag = false;
+  //   } else {
+  //     flag = true;
+  //     break;
   //   }
+  // }
+  // if (flag == true) {
+  //   print("The Entered Character/Alphabet ($str) is a Vowel");
+  // } else {
+  //   print("The Entered Character/Alphabet ($str) is not a Vowel");
   // }
 
   // Question # 10
